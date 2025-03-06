@@ -1,0 +1,20 @@
+{
+  "name": "@your-org/shared-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for my projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/shared-types.git"
+  },
+  "author": "Kenny",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
