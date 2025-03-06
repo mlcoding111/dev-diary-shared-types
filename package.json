@@ -1,20 +1,28 @@
 {
-  "name": "@your-org/shared-types",
+  "name": "@kennyml/dev-diary-shared-types",
   "version": "1.0.0",
   "description": "Shared TypeScript types for my projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "docs": "typedoc",
+    "deploy-docs": "npm run docs && gh-pages -d docs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/shared-types.git"
+    "url": "https://github.com/mlcoding111/dev-diary-shared-types.git"
   },
   "author": "Kenny",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "typedoc": "^0.27.9"
   }
 }
