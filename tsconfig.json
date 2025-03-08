@@ -1,10 +1,11 @@
 {
-    "compilerOptions": {
-      "declaration": true,
-      "emitDeclarationOnly": true,
-      "outDir": "dist",
-      "strict": true
-    },
-    "include": ["src"]
-  }
-  
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"outDir": "dist",
+		"moduleResolution": "node",
+		"strict": true
+	},
+	"include": ["src"]
+}
